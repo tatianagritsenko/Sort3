@@ -57,6 +57,7 @@ void bogoSort(int *arr, int size) {
 1. Выстраиваем элементы массива в виде сортирующего дерева:
 
 Array[i] >= Array[2i+1]
+
 Array[i] >= Array[2i+2]
 
 при 0 <= i < n/2.
